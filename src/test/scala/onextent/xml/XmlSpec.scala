@@ -1,20 +1,11 @@
 package onextent.xml
 
-import io.circe.{Decoder, Encoder}
-import io.circe.generic.auto._
+import io.circe.parser._
 import io.circe.syntax._
 import onextent.xml.DataSupport._
 import org.scalatest._
-import io.circe.parser._
-import io.circe.generic.semiauto._
-import io.circe._
 
 class XmlSpec extends FlatSpec {
-
-  implicit val pizzaDecoder: Decoder[Pizza] = deriveDecoder
-  implicit val pizzaEncoder: Encoder[Pizza] = deriveEncoder
-  implicit val chDecoder: Decoder[Cheese] = deriveDecoder
-  implicit val chEncoder: Encoder[Cheese] = deriveEncoder
 
   "A Pizza" should "have toppings" in {
 
@@ -47,10 +38,9 @@ class XmlSpec extends FlatSpec {
     parse(jsonstr) match {
       case Right(json) =>
         json.as[Pizza].toOption match {
-          case Some(newest) => {
+          case Some(newest) =>
             println(newest)
             println(newest.asJson.spaces4)
-          }
         }
     }
 
