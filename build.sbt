@@ -12,6 +12,7 @@ parallelExecution in test := false
 version := "1.0"
 
 scalaVersion := "2.12.4"
+val circeVersion = "0.9.1"
 
 libraryDependencies ++=
   Seq(
@@ -20,6 +21,9 @@ libraryDependencies ++=
     "io.github.mkotsur" %% "aws-lambda-scala" % "0.0.10",
     "com.thoughtworks.xstream" % "xstream" % "1.4.10",
     "org.codehaus.jettison" % "jettison" % "1.3.8",
+    "io.circe" %% "circe-core" % circeVersion,
+    "io.circe" %% "circe-generic" % circeVersion,
+    "io.circe" %% "circe-parser" % circeVersion,
 
     "org.scalatest" %% "scalatest" % "3.0.5" % "test"
   )
