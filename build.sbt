@@ -19,7 +19,7 @@ libraryDependencies ++=
     "org.typelevel" %% "cats-core" % "1.0.1",
     "com.chuusai" %% "shapeless" % "2.3.10",
     "io.github.mkotsur" %% "aws-lambda-scala" % "0.0.10",
-    "com.thoughtworks.xstream" % "xstream" % "1.4.10",
+    "com.thoughtworks.xstream" % "xstream" % "1.4.19",
     "org.codehaus.jettison" % "jettison" % "1.3.8",
     "io.circe" %% "circe-core" % circeVersion,
     "io.circe" %% "circe-generic" % circeVersion,
