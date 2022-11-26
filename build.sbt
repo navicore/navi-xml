@@ -20,7 +20,7 @@ libraryDependencies ++=
     "com.chuusai" %% "shapeless" % "2.3.10",
     "io.github.mkotsur" %% "aws-lambda-scala" % "0.0.10",
     "com.thoughtworks.xstream" % "xstream" % "1.4.19",
-    "org.codehaus.jettison" % "jettison" % "1.3.8",
+    "org.codehaus.jettison" % "jettison" % "1.5.2",
     "io.circe" %% "circe-core" % circeVersion,
     "io.circe" %% "circe-generic" % circeVersion,
     "io.circe" %% "circe-parser" % circeVersion,
