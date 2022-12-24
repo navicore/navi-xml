@@ -3,9 +3,9 @@ package onextent.xml
 import io.circe.parser._
 import io.circe.syntax._
 import onextent.xml.DataSupport._
-import org.scalatest._
+import org.scalatest.flatspec.AnyFlatSpec
 
-class XmlSpec extends FlatSpec {
+class XmlSpec extends AnyFlatSpec {
 
   "A Pizza" should "have toppings" in {
 
@@ -41,7 +41,9 @@ class XmlSpec extends FlatSpec {
           case Some(newest) =>
             println(newest)
             println(newest.asJson.spaces4)
+          case _ =>
         }
+      case _ =>
     }
 
   }
