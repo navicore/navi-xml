@@ -1,4 +1,6 @@
+.bsp/
 target/
+project/metals.sbt
 project/target/
 project/project/
 boot/
