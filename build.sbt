@@ -24,7 +24,7 @@ libraryDependencies ++=
     "io.circe" %% "circe-generic" % circeVersion,
     "io.circe" %% "circe-parser" % circeVersion,
 
-    "org.scalatest" %% "scalatest" % "3.2.14" % "test"
+    "org.scalatest" %% "scalatest" % "3.2.15" % "test"
   )
 
 mainClass in assembly := Some("onextent.xml.Main")
