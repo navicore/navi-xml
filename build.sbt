@@ -12,7 +12,7 @@ parallelExecution in test := false
 version := "1.0"
 
 scalaVersion := "2.12.17"
-val circeVersion = "0.14.3"
+val circeVersion = "0.14.4"
 
 libraryDependencies ++=
   Seq(
