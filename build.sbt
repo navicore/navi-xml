@@ -19,7 +19,7 @@ libraryDependencies ++=
     "org.typelevel" %% "cats-core" % "2.9.0",
     "com.chuusai" %% "shapeless" % "2.3.10",
     "com.thoughtworks.xstream" % "xstream" % "1.4.20",
-    "org.codehaus.jettison" % "jettison" % "1.5.3",
+    "org.codehaus.jettison" % "jettison" % "1.5.4",
     "io.circe" %% "circe-core" % circeVersion,
     "io.circe" %% "circe-generic" % circeVersion,
     "io.circe" %% "circe-parser" % circeVersion,
