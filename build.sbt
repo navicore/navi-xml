@@ -11,7 +11,7 @@ parallelExecution in test := false
 
 version := "1.0"
 
-scalaVersion := "2.12.17"
+scalaVersion := "2.12.18"
 val circeVersion = "0.14.5"
 
 libraryDependencies ++=
