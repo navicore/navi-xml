@@ -16,7 +16,7 @@ val circeVersion = "0.14.5"
 
 libraryDependencies ++=
   Seq(
-    "org.typelevel" %% "cats-core" % "2.9.0",
+    "org.typelevel" %% "cats-core" % "2.10.0",
     "com.chuusai" %% "shapeless" % "2.3.10",
     "com.thoughtworks.xstream" % "xstream" % "1.4.20",
     "org.codehaus.jettison" % "jettison" % "1.5.4",
