@@ -1,3 +1,8 @@
+<!-- ghmig:moved -->
+> **This repository has moved to [https://git.navicore.tech/navicore/navi-xml](https://git.navicore.tech/navicore/navi-xml).**
+>
+> The GitHub copy is archived and no longer maintained.
+
 Not sure if I ever used this for real work - just looking at it in 2022 because
 a bot gave me a PR.
 
